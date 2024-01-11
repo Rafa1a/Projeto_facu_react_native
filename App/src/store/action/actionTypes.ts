@@ -1,0 +1,1 @@
+export const SET_FORNECEDORES = "SET_FORNECEDORES"
