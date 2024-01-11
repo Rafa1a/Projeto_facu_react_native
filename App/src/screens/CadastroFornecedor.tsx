@@ -8,6 +8,7 @@ const CadastroFornecedor: React.FC = () => {
   const [nome, setNome] = useState('');
   const [endereco, setEndereco] = useState('');
   const [contato, setContato] = useState('');
+  const [categoria,setCategoria] = useState('');
   const [imagem, setImagem] = useState<string | null>(null);
 
   const handleCadastro = () => {
@@ -42,6 +43,8 @@ const CadastroFornecedor: React.FC = () => {
 
       <Text>Contato:</Text>
       <TextInput value={contato} onChangeText={setContato} />
+      <Text>Contato:</Text>
+      <TextInput value={categoria} onChangeText={setCategoria} />
 
       <Button title="Selecionar Imagem" onPress={pickImage} />
 

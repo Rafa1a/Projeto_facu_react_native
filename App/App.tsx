@@ -9,9 +9,7 @@ const App = () => {
 
   return (
 
-    <SafeAreaView>
       <Index/>
-    </SafeAreaView>
 
   );
 
